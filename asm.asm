@@ -11,7 +11,7 @@ minus1 real8 -1.0
 
 quardiac_eq_solver proc
 
-;calculate delta
+
 ;a is in xmm0 | b is in xmm1 | c is in xmm2
 
 movsd xmm4,xmm0 ;preserving a for later use
