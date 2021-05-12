@@ -3,7 +3,7 @@ extern nosol :proc
 extern sol1 :real8
 extern sol2 :real8
 .data
-four real8 4.0 ;delta = b^2-4*a*c
+four real8 4.0 
 zero real8 0.0
 minus1 real8 -1.0
 
