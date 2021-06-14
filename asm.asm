@@ -16,7 +16,7 @@ quardiac_eq_solver proc
 
 movsd xmm4,xmm0 ;preserving a for later use
 movsd xmm5,xmm1;preserving  b for later use
-movsd xmm6,xmm1 ; preserving b for later use ,again :)  this is an educational code and it's bit messy
+movsd xmm6,xmm1 ; preserving b for later use ,again :)  
 
 ;lets calculate  b^2-4*a*c and decide if the equation accepts reall solutions or not
 mulsd xmm1,xmm1 ;mulitplication 
